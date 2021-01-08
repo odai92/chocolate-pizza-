@@ -1,60 +1,80 @@
-.odai {
-  overflow: hidden;
-  background-color: #333;
+body {
+  width: 70%;
+  font-family: "IBM Plex Serif", serif;
+  margin: 0 auto;
 }
-.odai a {
+
+header div {
+  display: inline-block;
+  margin-top: 2em;
+}
+
+h4 {
+  font-family: "Yellowtail", cursive;
+  font-size: 2.3em;
+}
+
+h5 {
+  font-family: "VT323", monospace;
+  color: grey;
+  font-size: 13px;
+  margin-left: 7px;
+}
+
+header ul {
   float: right;
-  display: block;
-  color: #f2f2f2;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
-}
-.odai a :hover {
-  background-color: #ddd;
-  color: black;
+  margin-top: 2.5em;
+  margin-left: 10px;
 }
 
-header {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-  margin-top: 3%;
-  width: fit-content;
-}
-section {
-  display: inline;
-  margin-left: 180px;
-  align-items: flex-end;
-  margin-top: 100px;
-  position: sticky;
-  width: 29%;
-}
-article {
-  text-align: center;
+header ul li {
+  display: inline-block;
 }
 
-main {
-  width: auto;
-  height: auto;
-  margin: 20px;
-  position: relative;
-}
-
-footer {
-  background-color: #333;
-  text-align: center;
-  height: 100px;
-}
-
-h6 {
-  text-align: center;
+header ul:last-child {
+  margin-left: 4em;
 }
 
 h1 {
-  text-align: center;
+  font-family: "Francois One", sans-serif;
+  font-size: 30px;
+  margin-top: 1em;
 }
-three {
+
+h2 {
+  font-family: "VT323", monospace;
+  font-size: 13px;
+  color: grey;
+}
+
+#cake {
+  width: 100%;
+}
+
+#divofdivs {
+  background: url("img/list-bg.png");
+}
+
+.col1,
+.col2 {
+  width: 300px;
+  float: right;
+  margin-left: 130px;
+}
+
+main div form label {
+  display: block;
+}
+
+p {
+  text-indent: 30px;
+  margin-top: 30px;
+}
+
+footer img:first-child {
+  display: inline-block;
+}
+
+footer p {
   text-align: center;
 }
